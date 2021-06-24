@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sparq-online-page-alerts-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/sparqOnlinePageAlerts/SparqOnlinePageAlertsApplicationCustomizer.js",
+          "manifest": "./src/extensions/sparqOnlinePageAlerts/SparqOnlinePageAlertsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SparqOnlinePageAlertsApplicationCustomizerStrings": "lib/extensions/sparqOnlinePageAlerts/loc/{locale}.js"
+  }
+}

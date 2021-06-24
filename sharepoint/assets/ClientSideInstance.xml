@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SparqOnlinePageAlerts"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="291b9f2b-3fb7-41ee-98a9-5bc68b3c9708"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
